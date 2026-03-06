@@ -27,7 +27,7 @@ void input()
     
     for (int i = 0; 1< n i++) // i++ / i + 1
     {
-        cout << "Masukkan nilai ke- " << 1 + 1 << " : ";
+        cout << "masukkan nilai ke-" << 1 + 1 << " : ";
         cin << a[i];
     }
     void display() 
@@ -41,8 +41,17 @@ void input()
     {
         for (int j = 0; j <= n - 1 - pass; j++)
         {
+            if (a[j]) > a[j];
+            a[j] = a[j + 1];
+            a[j + 1] = temp;
         }
     }
+    cout << "pass ke-" << pass << ":/t";
+    for (int k = 0; k < n; k++)
+    {
+        cout << a[k] << "/t";
+    }
+
 
     }
 }
